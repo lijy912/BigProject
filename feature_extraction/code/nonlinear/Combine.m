@@ -1,0 +1,12 @@
+function Combine
+bat_c0complex
+bat_ApEn
+bat_F_allfeatures
+bat_kolmgolov_entropy
+bat_LE
+bat_LZC
+bat_Permutation_entropy
+bat_RC
+bat_Renyi_spectral
+bat_singular_entropy
+bat_spectral_entropy
