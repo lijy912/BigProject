@@ -1,0 +1,35 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.ReliefFAttributeEval -M -1 -D 1 -K 10
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N 8
+Relation:     linear_data
+Instances:    2067
+Attributes:   129
+              [list of attributes omitted]
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 129 label):
+	ReliefF Ranking Filter
+	Instances sampled: all
+	Number of nearest neighbours (k): 10
+	Equal influence nearest neighbours
+
+Ranked attributes:
+ 0.0336    69 A68
+ 0.0322   109 A108
+ 0.0301    45 A44
+ 0.0246    77 A76
+ 0.0235    92 A91
+ 0.023     89 A88
+ 0.0217     5 A4
+ 0.021     85 A84
+
+Selected attributes: 69,109,45,77,92,89,5,85 : 8
+

@@ -1,0 +1,32 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.InfoGainAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N 8
+Relation:     linear_data
+Instances:    2067
+Attributes:   129
+              [list of attributes omitted]
+Evaluation mode:    evaluate on all training data
+
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Attribute ranking.
+
+Attribute Evaluator (supervised, Class (nominal): 129 label):
+	Information Gain Ranking Filter
+
+Ranked attributes:
+ 0.1018    69 A68
+ 0.0737    37 A36
+ 0.0719    90 A89
+ 0.0719    92 A91
+ 0.0711    91 A90
+ 0.0706    96 A95
+ 0.0681    89 A88
+ 0.0669    45 A44
+
+Selected attributes: 69,37,90,92,91,96,89,45 : 8
+
