@@ -1,0 +1,118 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Relation:     nonlinear_CFS_GSW-weka.filters.unsupervised.attribute.Normalize-S2.0-T-1.0
+Instances:    2067
+Attributes:   23
+              A1
+              A6
+              A15
+              A18
+              A25
+              A27
+              A28
+              A36
+              A47
+              A49
+              A53
+              A54
+              A62
+              A65
+              A71
+              A73
+              A76
+              A77
+              A79
+              A84
+              A88
+              A95
+              label
+Test mode:    2067-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+               Class
+Variable         MDD
+====================
+A1           -0.5428
+A6           -0.6327
+A15           0.5194
+A18          -0.1956
+A25           0.2393
+A27           1.7144
+A28           0.8194
+A36          -0.6488
+A47          -0.1384
+A49           0.5567
+A53            0.389
+A54           0.1172
+A62           0.4621
+A65           0.1968
+A71           0.0613
+A73          -0.4215
+A76           1.2769
+A77           -0.372
+A79           0.2158
+A84           0.0751
+A88          -0.7217
+A95           0.9006
+Intercept    -1.3484
+
+
+Odds Ratios...
+               Class
+Variable         MDD
+====================
+A1            0.5811
+A6            0.5312
+A15            1.681
+A18           0.8223
+A25           1.2703
+A27           5.5533
+A28           2.2691
+A36           0.5227
+A47           0.8708
+A49           1.7448
+A53           1.4755
+A54           1.1244
+A62           1.5874
+A65           1.2175
+A71           1.0632
+A73           0.6561
+A76           3.5857
+A77           0.6893
+A79           1.2409
+A84            1.078
+A88           0.4859
+A95           2.4611
+
+
+Time taken to build model: 0.14 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1335               64.5864 %
+Incorrectly Classified Instances       732               35.4136 %
+Kappa statistic                          0.2759
+Mean absolute error                      0.4455
+Root mean squared error                  0.4742
+Relative absolute error                 89.8539 %
+Root relative squared error             95.219  %
+Total Number of Instances             2067     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.533    0.261    0.628      0.533    0.577      0.279    0.679     0.627     MDD
+                 0.739    0.467    0.657      0.739    0.696      0.279    0.679     0.691     HC
+Weighted Avg.    0.646    0.374    0.644      0.646    0.642      0.279    0.679     0.662     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 499 437 |   a = MDD
+ 295 836 |   b = HC
+

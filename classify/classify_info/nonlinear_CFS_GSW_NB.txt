@@ -1,0 +1,200 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     nonlinear_CFS_GSW-weka.filters.unsupervised.attribute.Normalize-S2.0-T-1.0
+Instances:    2067
+Attributes:   23
+              A1
+              A6
+              A15
+              A18
+              A25
+              A27
+              A28
+              A36
+              A47
+              A49
+              A53
+              A54
+              A62
+              A65
+              A71
+              A73
+              A76
+              A77
+              A79
+              A84
+              A88
+              A95
+              label
+Test mode:    2067-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                 Class
+Attribute          MDD      HC
+                (0.45)  (0.55)
+===============================
+A1
+  mean           0.5016  0.5392
+  std. dev.      0.3124  0.2663
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A6
+  mean          -0.2981  -0.302
+  std. dev.      0.2989  0.2901
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A15
+  mean          -0.0813   -0.13
+  std. dev.       0.284   0.295
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A18
+  mean          -0.1262 -0.1707
+  std. dev.      0.3256  0.3413
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A25
+  mean           0.4094  0.4278
+  std. dev.      0.3131  0.2996
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A27
+  mean             0.07 -0.0381
+  std. dev.       0.286  0.3023
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A28
+  mean           0.2947  0.2212
+  std. dev.      0.3289  0.3793
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A36
+  mean          -0.1572  -0.178
+  std. dev.      0.2536    0.29
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A47
+  mean             0.32   0.305
+  std. dev.      0.2254   0.252
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A49
+  mean            0.407  0.3842
+  std. dev.      0.2948  0.2957
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A53
+  mean           0.3242   0.291
+  std. dev.      0.2397  0.2236
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A54
+  mean          -0.2221 -0.2596
+  std. dev.      0.3402  0.3213
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A62
+  mean           0.4615   0.396
+  std. dev.      0.2799  0.2821
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A65
+  mean           0.1859  0.1639
+  std. dev.      0.2863  0.2633
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A71
+  mean           0.2947  0.2798
+  std. dev.      0.2311   0.232
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A73
+  mean           0.4294  0.4645
+  std. dev.      0.3101  0.3012
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A76
+  mean           0.3247  0.2163
+  std. dev.      0.3856   0.387
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A77
+  mean           0.2577  0.2555
+  std. dev.      0.2275  0.2152
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A79
+  mean           0.5427    0.55
+  std. dev.      0.2784  0.2768
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A84
+  mean          -0.0753 -0.1282
+  std. dev.      0.3327  0.3228
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A88
+  mean           0.3988  0.3747
+  std. dev.      0.3428  0.3424
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A95
+  mean           0.4806  0.4434
+  std. dev.      0.1809   0.187
+  weight sum        936    1131
+  precision       0.001   0.001
+
+
+
+Time taken to build model: 0.05 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1241               60.0387 %
+Incorrectly Classified Instances       826               39.9613 %
+Kappa statistic                          0.1977
+Mean absolute error                      0.4394
+Root mean squared error                  0.5006
+Relative absolute error                 88.6237 %
+Root relative squared error            100.5249 %
+Total Number of Instances             2067     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.589    0.390    0.555      0.589    0.572      0.198    0.637     0.588     MDD
+                 0.610    0.411    0.642      0.610    0.626      0.198    0.637     0.655     HC
+Weighted Avg.    0.600    0.402    0.603      0.600    0.601      0.198    0.637     0.625     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 551 385 |   a = MDD
+ 441 690 |   b = HC
+

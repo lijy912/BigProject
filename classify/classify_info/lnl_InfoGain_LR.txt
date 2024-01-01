@@ -1,0 +1,103 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Relation:     lnl_InfoGain-weka.filters.unsupervised.attribute.Normalize-S2.0-T-1.0
+Instances:    2067
+Attributes:   18
+              A69
+              A37
+              A90
+              A92
+              A91
+              A96
+              A89
+              A45
+              A53
+              A27
+              A25
+              A71
+              A77
+              A28
+              A79
+              A49
+              A65
+              label
+Test mode:    2067-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                Class
+Variable          MDD
+=====================
+A69            1.8239
+A37            -1.205
+A90            -6.551
+A92            1.1554
+A91            5.5004
+A96              3.13
+A89           -4.7752
+A45           -0.2686
+A53            0.6894
+A27            1.6035
+A25           -0.0709
+A71            0.0944
+A77             0.112
+A28            1.4581
+A79           -0.2381
+A49            0.1709
+A65            0.2901
+Intercept     -3.9611
+
+
+Odds Ratios...
+                Class
+Variable          MDD
+=====================
+A69            6.1959
+A37            0.2997
+A90            0.0014
+A92            3.1753
+A91          244.7866
+A96           22.8743
+A89            0.0084
+A45            0.7645
+A53            1.9925
+A27            4.9703
+A25            0.9315
+A71             1.099
+A77            1.1185
+A28             4.298
+A79            0.7881
+A49            1.1864
+A65            1.3366
+
+
+Time taken to build model: 0.03 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1382               66.8602 %
+Incorrectly Classified Instances       685               33.1398 %
+Kappa statistic                          0.325 
+Mean absolute error                      0.4255
+Root mean squared error                  0.462 
+Relative absolute error                 85.8164 %
+Root relative squared error             92.7713 %
+Total Number of Instances             2067     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.580    0.258    0.650      0.580    0.613      0.327    0.719     0.646     MDD
+                 0.742    0.420    0.681      0.742    0.710      0.327    0.719     0.747     HC
+Weighted Avg.    0.669    0.347    0.667      0.669    0.666      0.327    0.719     0.701     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 543 393 |   a = MDD
+ 292 839 |   b = HC
+

@@ -1,0 +1,148 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Relation:     lnl_CFS_GSW-weka.filters.unsupervised.attribute.Normalize-S2.0-T-1.0
+Instances:    2067
+Attributes:   33
+              A5
+              A35
+              A37
+              A45
+              A47
+              A49
+              A61
+              A69
+              A89
+              A90
+              A95
+              A109
+              A121
+              A1
+              A6
+              A15
+              A18
+              A25
+              A27
+              A28
+              A36
+              A53
+              A54
+              A62
+              A65
+              A71
+              A73
+              A76
+              A77
+              A79
+              A84
+              A88
+              label
+Test mode:    2067-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+                            Class
+Variable                      MDD
+=================================
+A5                         -0.613
+A35                        0.4807
+A37                       -1.1108
+A45                        0.4746
+A47                      -13.8401
+A49                        1.8337
+A61                       -2.3366
+A69                        3.2658
+A89                    -15003.472
+A90                       -8.7285
+A95                    15018.6059
+A109                       -0.371
+A121                        85.24
+A1                        -0.4017
+A6                        -0.7358
+A15                        0.4187
+A18                        0.0487
+A25                        0.2999
+A27                        1.8254
+A28                        1.1683
+A36                        0.0807
+A53                        0.4709
+A54                        0.0199
+A62                        0.8233
+A65                        0.2341
+A71                       -0.2515
+A73                       -0.5143
+A76                         0.943
+A77                       -0.2562
+A79                        0.2047
+A84                        0.1858
+A88                       -0.9219
+Intercept                 63.7724
+
+
+Odds Ratios...
+                            Class
+Variable                      MDD
+=================================
+A5                         0.5417
+A35                        1.6173
+A37                        0.3293
+A45                        1.6074
+A47                             0
+A49                         6.257
+A61                        0.0967
+A69                       26.2021
+A89                             0
+A90                        0.0002
+A95                      Infinity
+A109                         0.69
+A121         1.045336946548329E37
+A1                         0.6692
+A6                         0.4791
+A15                          1.52
+A18                        1.0499
+A25                        1.3497
+A27                        6.2054
+A28                        3.2167
+A36                        1.0841
+A53                        1.6015
+A54                        1.0201
+A62                        2.2779
+A65                        1.2638
+A71                        0.7776
+A73                        0.5979
+A76                        2.5678
+A77                         0.774
+A79                        1.2272
+A84                        1.2042
+A88                        0.3978
+
+
+Time taken to build model: 0.07 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1441               69.7146 %
+Incorrectly Classified Instances       626               30.2854 %
+Kappa statistic                          0.3848
+Mean absolute error                      0.3959
+Root mean squared error                  0.4462
+Relative absolute error                 79.8575 %
+Root relative squared error             89.5883 %
+Total Number of Instances             2067     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.627    0.245    0.679      0.627    0.652      0.386    0.759     0.711     MDD
+                 0.755    0.373    0.710      0.755    0.732      0.386    0.759     0.774     HC
+Weighted Avg.    0.697    0.315    0.696      0.697    0.696      0.386    0.759     0.746     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 587 349 |   a = MDD
+ 277 854 |   b = HC
+

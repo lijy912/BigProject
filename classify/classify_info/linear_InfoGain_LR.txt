@@ -1,0 +1,76 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4
+Relation:     linear_InfoGain-weka.filters.unsupervised.attribute.Normalize-S2.0-T-1.0
+Instances:    2067
+Attributes:   9
+              A69
+              A37
+              A90
+              A92
+              A91
+              A96
+              A89
+              A45
+              label
+Test mode:    2067-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Logistic Regression with ridge parameter of 1.0E-8
+Coefficients...
+               Class
+Variable         MDD
+====================
+A69            1.749
+A37          -0.8977
+A90          -5.0385
+A92           1.8258
+A91           3.3261
+A96           1.8879
+A89          -2.7118
+A45          -0.4527
+Intercept    -2.5028
+
+
+Odds Ratios...
+               Class
+Variable         MDD
+====================
+A69           5.7491
+A37           0.4075
+A90           0.0065
+A92           6.2075
+A91          27.8286
+A96           6.6055
+A89           0.0664
+A45           0.6359
+
+
+Time taken to build model: 0.01 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1241               60.0387 %
+Incorrectly Classified Instances       826               39.9613 %
+Kappa statistic                          0.1786
+Mean absolute error                      0.458 
+Root mean squared error                  0.4793
+Relative absolute error                 92.3824 %
+Root relative squared error             96.2461 %
+Total Number of Instances             2067     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.453    0.278    0.575      0.453    0.507      0.182    0.653     0.573     MDD
+                 0.722    0.547    0.615      0.722    0.664      0.182    0.653     0.716     HC
+Weighted Avg.    0.600    0.425    0.597      0.600    0.593      0.182    0.653     0.651     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 424 512 |   a = MDD
+ 314 817 |   b = HC
+

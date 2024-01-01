@@ -1,0 +1,109 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     nonlinear_InfoGain-weka.filters.unsupervised.attribute.Normalize-S2.0-T-1.0
+Instances:    2067
+Attributes:   10
+              A53
+              A27
+              A25
+              A71
+              A77
+              A28
+              A79
+              A49
+              A65
+              label
+Test mode:    2067-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                 Class
+Attribute          MDD      HC
+                (0.45)  (0.55)
+===============================
+A53
+  mean           0.3242   0.291
+  std. dev.      0.2397  0.2236
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A27
+  mean             0.07 -0.0381
+  std. dev.       0.286  0.3023
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A25
+  mean           0.4094  0.4278
+  std. dev.      0.3131  0.2996
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A71
+  mean           0.2947  0.2798
+  std. dev.      0.2311   0.232
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A77
+  mean           0.2577  0.2555
+  std. dev.      0.2275  0.2152
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A28
+  mean           0.2947  0.2212
+  std. dev.      0.3289  0.3793
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A79
+  mean           0.5427    0.55
+  std. dev.      0.2784  0.2768
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A49
+  mean            0.407  0.3842
+  std. dev.      0.2948  0.2957
+  weight sum        936    1131
+  precision       0.001   0.001
+
+A65
+  mean           0.1859  0.1639
+  std. dev.      0.2863  0.2633
+  weight sum        936    1131
+  precision       0.001   0.001
+
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1265               61.1998 %
+Incorrectly Classified Instances       802               38.8002 %
+Kappa statistic                          0.2058
+Mean absolute error                      0.4667
+Root mean squared error                  0.485 
+Relative absolute error                 94.123  %
+Root relative squared error             97.3811 %
+Total Number of Instances             2067     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.489    0.286    0.586      0.489    0.533      0.208    0.637     0.556     MDD
+                 0.714    0.511    0.628      0.714    0.668      0.208    0.637     0.671     HC
+Weighted Avg.    0.612    0.409    0.609      0.612    0.607      0.208    0.637     0.619     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 458 478 |   a = MDD
+ 324 807 |   b = HC
+

@@ -1,0 +1,74 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.lazy.IBk -K 3 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A \"weka.core.EuclideanDistance -R first-last\""
+Relation:     lnl_CFS_GSW-weka.filters.unsupervised.attribute.Normalize-S2.0-T-1.0
+Instances:    2067
+Attributes:   33
+              A5
+              A35
+              A37
+              A45
+              A47
+              A49
+              A61
+              A69
+              A89
+              A90
+              A95
+              A109
+              A121
+              A1
+              A6
+              A15
+              A18
+              A25
+              A27
+              A28
+              A36
+              A53
+              A54
+              A62
+              A65
+              A71
+              A73
+              A76
+              A77
+              A79
+              A84
+              A88
+              label
+Test mode:    2067-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+IB1 instance-based classifier
+using 3 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        1571               76.0039 %
+Incorrectly Classified Instances       496               23.9961 %
+Kappa statistic                          0.5174
+Mean absolute error                      0.2874
+Root mean squared error                  0.4172
+Relative absolute error                 57.976  %
+Root relative squared error             83.7691 %
+Total Number of Instances             2067     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.754    0.235    0.726      0.754    0.740      0.518    0.821     0.735     MDD
+                 0.765    0.246    0.790      0.765    0.777      0.518    0.821     0.808     HC
+Weighted Avg.    0.760    0.241    0.761      0.760    0.760      0.518    0.821     0.775     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 706 230 |   a = MDD
+ 266 865 |   b = HC
+
